@@ -1,0 +1,20 @@
+{
+  "name": "early-finder",
+  "version": "1.0.0",
+  "main": "clay.js",
+  "bin": "clay.js",
+  "scripts": {
+    "start": "node clay.js"
+  },
+  "dependencies": {
+    "discord.js-selfbot-v13": "^1.0.0"
+  },
+  "pkg": {
+    "targets": [
+      "node18-linux-x64",
+      "node18-win-x64",
+      "node18-macos-x64"
+    ],
+    "output": "early-finder"
+  }
+}
